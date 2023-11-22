@@ -27,4 +27,5 @@ class Person{
 let person=new Person("reena", 23, "ranchi");
 let personName=person.GetName();
 console.log(personName);
+console.log("this is for testing");
 
