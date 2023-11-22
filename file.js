@@ -6,6 +6,7 @@ function print(message){
 
 print("hey what you are doing");
 
+
 class Person{
     constructor(name, age, city){
         this.Name = name ?? "John";
@@ -17,6 +18,9 @@ class Person{
     }
     GetAge(){
         return this.Age;
+    }
+    GetPerson(){
+        return `${this.Name} ${this.Age}`;
     }
 }
 
